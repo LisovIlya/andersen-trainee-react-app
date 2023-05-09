@@ -14,17 +14,13 @@ class Form extends React.Component {
                         <Input name='surname' id='surname' type='text' label='Фамилия' placeholder='Лысов'/>
                     </div>
                     <div className={styles.horizon}>
-                        <div className={styles.vertical}>
-                            <div className={styles.horizon}>
-                                <Input name='date' id='date' type='date' label='Дата рождения'/>
-                            </div>
-                            <div className={styles.horizon}>
-                                <Input name='phone' id='phone' type='tel' label='Телефон' placeholder='+995 234 233 399'/>
-                            </div>
-                            <div className={styles.horizon}>
-                                <Input name='url' id='url' type='url' label='Сайт' placeholder='www...'/>
-                            </div>
-                        </div>
+                        <Input name='date' id='date' type='date' label='Дата рождения'/>
+                        <Input name='phone' id='phone' type='tel' label='Телефон' placeholder='+995 234 233 399'/>
+                    </div>
+                    <div className={styles.horizon}>
+                        <Input name='url' id='url' type='url' label='Сайт' placeholder='https://developer.mozilla.org/'/>
+                    </div>
+                    <div className={styles.horizon}>
                         <Input name='about' id='about' type='text' label='О себе' placeholder='Опыт работы...' rows='7'/>
                     </div>
                     <div className={styles.horizon}>
