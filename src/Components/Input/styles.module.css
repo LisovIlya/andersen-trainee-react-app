@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.wrapper:last-child {
+    margin-right: 0;
+}
+
+label {
+    color: gray;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+textarea {
+    resize: none;
+    height: 100%;
+}
+
+input, textarea {
+    outline: none;
+    border-radius: 10px;
+    padding: 8px 10px;
+    border: 1px solid gray;
+    transition-property: border-color box-shadow;
+    transition-duration: .3s;
+    width: 100%;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #fcd917;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+input[type="reset"], [type="submit"] {
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 20px;
+    border: none;
+    padding: 8px 18px;
+    height: fit-content;
+    border-radius: 10px;
+    transition: box-shadow .3s;
+}
+
+input[type="reset"]:hover, [type="submit"]:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+input[type="reset"] {
+    color: gray;
+}
+
+input[type="submit"] {
+    background-color: #fcd917;
+    color: white;
+}
