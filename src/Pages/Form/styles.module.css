@@ -1,12 +1,9 @@
 .wrapper {
-    width: 500px;
-    padding: 30px;
-    border: 1px solid #cacaca;
-    border-radius: 20px;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
@@ -25,4 +22,41 @@ h1 {
 
 .horizon:last-child {
     margin-bottom: 0;
+}
+
+.form {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #cacaca;
+    border-radius: 20px;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.block:last-child {
+    margin: 0;
+}
+
+.property {
+    color: gray;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.value {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
