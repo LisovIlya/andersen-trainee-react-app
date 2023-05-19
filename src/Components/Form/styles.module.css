@@ -2,6 +2,10 @@
     width: 400px;
 }
 
+.form {
+    width: 100%;
+}
+
 .horizon {
     display: flex;
 }

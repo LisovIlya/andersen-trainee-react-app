@@ -8,3 +8,9 @@
     border: 1px solid #cacaca;
     border-radius: 20px;
 }
+
+h1 {
+    color: grey;
+    margin-bottom: 20px;
+    text-align: center;
+}
