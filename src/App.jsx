@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import {Form} from './Pages'
+import {FormPage} from './Pages'
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <FormPage/>
     </div>
   );
 }

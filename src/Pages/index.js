@@ -1,3 +1,3 @@
-import Form from "./Form"
+import FormPage from "./FormPage"
 
-export {Form}
+export {FormPage}

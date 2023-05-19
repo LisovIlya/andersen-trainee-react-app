@@ -1,0 +1,11 @@
+.wrapper {
+    width: 400px;
+}
+
+.horizon {
+    display: flex;
+}
+
+.horizon * {
+    margin-bottom: 0;
+}
